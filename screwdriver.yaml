@@ -1,0 +1,11 @@
+shared:
+  settings:
+    slack:
+      channel: "#burning_project"
+      statuses:
+        - SUCCESS
+jobs:
+  main:
+    image: node:6
+    steps: 
+      - echo: echo test
