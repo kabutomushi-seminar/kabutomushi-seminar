@@ -1,7 +1,7 @@
 shared:
   settings:
     slack:
-      channel: C6BF0G7HU
+      channel: "#burning_project"
       statuses:
         - SUCCESS
 jobs:
