@@ -7,5 +7,5 @@ shared:
 jobs:
   main:
     image: node:6
-    step: 
+    steps: 
       - echo: echo test
