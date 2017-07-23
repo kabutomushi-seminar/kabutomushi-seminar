@@ -2,3 +2,10 @@ shared:
   settings:
     slack:
       channel: C6BF0G7HU
+      statuses:
+        - SUCCESS
+jobs:
+  main:
+    image: node:6
+    step: 
+      - echo: echo test
